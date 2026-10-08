@@ -1,6 +1,11 @@
 # 🐍 Python Snake Game with Dynamic Difficulty Scaling
 
-A classic, feature-rich **Snake Game** built in Python using **Pygame**. This project demonstrates both procedural and clean Object-Oriented Programming (OOP) paradigms with real-time HUD rendering, collision physics, and dynamic difficulty scaling.
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Pygame](https://img.shields.io/badge/pygame--ce-2.5%2B-green.svg)
+![Architecture](https://img.shields.io/badge/architecture-OOP-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-purple.svg)
+
+A classic, feature-rich **Snake Game** built in Python using **Pygame**. This project demonstrates clean Object-Oriented Programming (OOP) paradigms with real-time HUD rendering, collision physics, and dynamic difficulty scaling.
 
 ---
 
@@ -11,6 +16,7 @@ A classic, feature-rich **Snake Game** built in Python using **Pygame**. This pr
 - [⚙️ Dynamic Difficulty Mechanics](#-dynamic-difficulty-mechanics)
 - [📖 Class & Method Documentation](#-class--method-documentation)
 - [🚀 Quick Start & Installation](#-quick-start--installation)
+- [📄 License](#-license)
 
 ---
 
@@ -28,8 +34,7 @@ A classic, feature-rich **Snake Game** built in Python using **Pygame**. This pr
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| **[SnakeGame copy.py](file:///d:/Dip-2026%20All%20files/1%29%20Dip%20Programing/Pythone/Snake%20game/SnakeGame%20copy.py)** | **OOP (Recommended)** | Class-based implementation (`SnakeGame`). Highly clean, modular, and extensible. |
-| **[SnakeGame.py](file:///d:/Dip-2026%20All%20files/1%29%20Dip%20Programing/Pythone/Snake%20game/SnakeGame.py)** | **Procedural** | Script-level procedural implementation for simple quick runs. |
+| **[Snake_Game.py](./Snake_Game.py)** | **OOP (Main)** | Class-based implementation (`SnakeGame`). Highly clean, modular, and extensible. |
 
 ---
 
@@ -62,7 +67,7 @@ The game dynamically adjusts its pace based on your score using mathematical for
 ## 📖 Class & Method Documentation
 
 ### Class: `SnakeGame`
-Defined in **[SnakeGame copy.py](file:///d:/Dip-2026%20All%20files/1%29%20Dip%20Programing/Pythone/Snake%20game/SnakeGame%20copy.py)**. Handles window creation, game states, loop management, collision physics, and graphics rendering.
+Defined in **[Snake_Game.py](./Snake_Game.py)**. Handles window creation, game states, loop management, collision physics, and graphics rendering.
 
 #### Attributes:
 - `initial_fps` *(int)*: Starting speed at level 1 (default: `6`).
@@ -109,7 +114,7 @@ Defined in **[SnakeGame copy.py](file:///d:/Dip-2026%20All%20files/1%29%20Dip%20
 ## 🚀 Quick Start & Installation
 
 ### Prerequisites
-Make sure you have Python 3 installed along with `pygame` or `pygame-ce`:
+Make sure you have Python 3 installed along with `pygame`:
 
 ```bash
 pip install pygame
@@ -117,14 +122,9 @@ pip install pygame
 
 ### Running the Game
 
-To run the **OOP version** (recommended):
+To run the game:
 ```bash
-python "SnakeGame .py"
-```
-
-To run the **Procedural version**:
-```bash
-python "SnakeGame.py"
+python Snake_Game.py
 ```
 
 ---
